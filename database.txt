@@ -1,0 +1,20 @@
+drop database realEstateDb; 
+create database realEstateDb; 
+use realEstateDb; 
+
+
+
+create table propertydetails(
+propertyID int NOT NULL AUTO_INCREMENT,
+totalArea double,
+overallQuality int,
+overallCondition int,
+yearBuilt int,
+totalBasment double,
+salesPrice double,
+LocationName varchar(50),
+PRIMARY KEY(propertyID)
+);
+
+
+ 
